@@ -286,9 +286,7 @@ def difficolty():
         speed = 45
 
     if (tempo > 3800):
-
-        pygame.mixer.music.load("Kraddy.mp3")
-        pygame.mixer.music.play(-1)
+  
         speed = 50
 
     if (tempo > 5800):
